@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-p2ov
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-p2ov@sha256:8801d8b3407dbefe7053b7c7e98a2fc5cfa6c096939ac0ad4c3825cd16c19f6e
+        name: my-nodejs
+        resources: {}
+status: {}
