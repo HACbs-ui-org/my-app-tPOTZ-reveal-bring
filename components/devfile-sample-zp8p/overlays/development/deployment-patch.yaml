@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-zp8p@sha256:46416566aa1ddbb058822dba52702bc8abe16a42deb4366dccbf74f7c3a9aa73
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-zp8p@sha256:207ec0091462d5002f3e0744466067f15ef4f8e116511b5ecd89916a0bde1f09
         name: my-nodejs
         resources: {}
 status: {}
