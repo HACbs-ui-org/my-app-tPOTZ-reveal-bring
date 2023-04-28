@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-zp8p
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-zp8p@sha256:7eaeeee76ce06981e1acdda4b08712d5a456c85d22ec24a8c31a1f95f5ad5ab4
+        name: my-nodejs
+        resources: {}
+status: {}
