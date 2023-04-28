@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-p2ov
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-p2ov@sha256:8801d8b3407dbefe7053b7c7e98a2fc5cfa6c096939ac0ad4c3825cd16c19f6e
         name: my-nodejs
         ports:
         - containerPort: 3001
